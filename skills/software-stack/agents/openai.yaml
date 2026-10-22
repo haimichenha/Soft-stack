@@ -1,0 +1,4 @@
+interface:
+  display_name: "SS · 软件开发与学习工作台"
+  short_description: "把软件需求落实为可验证改动，结合代码导读、分层验收与返工止损"
+  default_prompt: "使用 $software-stack 帮我定位当前软件任务，保留已有功能，用适合的证据验证改动，并解释本轮最关键的代码概念。"

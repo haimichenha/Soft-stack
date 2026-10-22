@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-22",
+  "repository": "https://github.com/haimichenha/Soft-stack",
+  "stage": "trial-source-release",
+  "source": "existing locally authored software-stack package; source/install paths preserved",
+  "runtime_or_skill_code_modified_for_publication": false,
+  "publication_only_edits": [
+    "README.md",
+    "provenance/publication-20261022.json"
+  ],
+  "lineage_record": "provenance/local-candidate.json",
+  "review": {
+    "as_server_code_copied": false,
+    "ae_tool_executor_code_copied": false,
+    "third_party_dependencies_vendored": false,
+    "license_added": false,
+    "excluded": [
+      ".venv/",
+      ".local/",
+      ".as-state/",
+      "user configuration",
+      "credentials",
+      "production assets"
+    ],
+    "credential_pattern_findings": 0
+  },
+  "publication_intent": "initial main commit to the user-created empty repository; verify remote SHA separately",
+  "files_sha256": {
+    ".gitignore": "f3c84632d1b3a31ef5445eb5d0330f35060323040d9479389ce35d836048f8c7",
+    "commands/SS.md": "4297b7ef72ee41703fe66b4d2fbe7fdc65df27489072ab129185504fdc9d07e8",
+    "docs/behavior-evaluation.md": "da0c67959d797c468e1266afcd10c7e485ed23250566a454ab4913fe88a8ec99",
+    "docs/registration.md": "5b658274332367c972c6070bdac88022fec322e541ca6de189df41553ed32d14",
+    "provenance/local-candidate.json": "6249e5379b3f132a9bcdbb92f00e15ac51dfd2b583383f067ad809657af82761",
+    "README.md": "ffd45ccbdc6e22c9722a6fbecc0479d19bf687f550a777a18c10eb8d6bfcfb30",
+    "requirements-lock.txt": "7c9e5a20061c7eeb203ac41e9f51f6d18079f88f1a0e44d2b514f7cea1e772ad",
+    "requirements.txt": "4fe75062c5d424bbc86a8cd58c63ab19aeffe4f0a0e100022252c8032e12ee5b",
+    "scripts/register_local.py": "50945f0ba79ad10764d8cce2787b701f867254ac5f2fa7119c5e4194d62e7c60",
+    "server.py": "62ea0d693b09340411f6eabe47ac2574cf565ad18b10f53467d7d2e328a18942",
+    "skills/software-stack/agents/openai.yaml": "0b36239b2db0d2f90bbe80b1cf103e8945ab925f6887a9e908feab889e4e04e1",
+    "skills/software-stack/references/delivery-checks.md": "879f58b77f249873d8bcb1b9f7d0bdbf1032e6bb14dc5622f9d9a568b7f1cec2",
+    "skills/software-stack/references/isolated-react-motion-lab.md": "962ed99e4b6bbc3c065b70e36dd907e6f9a131332f813bf6961aba771c9e6f0d",
+    "skills/software-stack/references/learning-loop.md": "df374e3a5a1480eee28bbe5fa1623d8e826df474f006a3c32434bc73758a67ef",
+    "skills/software-stack/references/lightweight-frontend.md": "c9fad68b5045e2c503042fab636174ffbdcb235e4db86f5820341ec378bb659f",
+    "skills/software-stack/references/visual-motion-acceptance.md": "5adbd67d3bc14af225bc74859471e9eda5e2b7808153d9f7b2aab22fbb415182",
+    "skills/software-stack/SKILL.md": "719cfd0d35cf0a932f7c57047f4ae2d5c2e9f6111eee7c2121b1695c5d2956e1",
+    "tests/behavior/cases/asset-capability/request.md": "109f25f5a0645f8bccaee19257a8976dd3218aacd614f6e893202732f1486b69",
+    "tests/behavior/cases/cli-default/request.md": "4eb889f63f7126deb0f99e4f9021fe8e892aa6b4bcbacd454c11164f3fd08461",
+    "tests/behavior/cases/default-runtime/request.md": "3b2b8563f239e17f36d6c732df192657787459582e90a8b3baad2ca2c18119e7",
+    "tests/behavior/cases/executor-failure/request.md": "d01c0507220e4a44f3e7ab97368b29402801db4241b561b91de0dccd5bb9374f",
+    "tests/behavior/rubric.json": "effde3dfd7482e0725fadf9d8fea6fc1a205f24f077d23f97d931110248b4229",
+    "tests/test_registration.py": "e461cb3d6e35997a52e68f34d4f68f988f7aae6020cb388e3b62978a58c5d9fd",
+    "tests/test_server.py": "6f34b4f05152b0423b878e3cb2d303ccde3540a24dfce0a96136bef7e4fb06f4",
+    "tests/test_skill_package.py": "0a360936f713335f95d8d00a0cc2cbfafdb28ad22e472748d54dd727cec0af3a"
+  },
+  "validation": {
+    "environment": "Windows / Python 3.13 / fresh venv from requirements-lock.txt",
+    "tests_run": 21,
+    "passed": 20,
+    "skipped": 1,
+    "skip_reason": "Directory symlinks unavailable: OSError",
+    "real_stdio_mcp_test_passed": true,
+    "skill_format_valid": true,
+    "pip_check_passed": true,
+    "real_client_registration_changed": false,
+    "new_external_model_calls": 0
+  }
+}

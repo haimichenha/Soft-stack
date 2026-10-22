@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-18",
+  "source": "newapi-ui-lab/AE-tool/skills/software-workbench",
+  "kind": "locally authored candidate, selected tests only",
+  "changes": [
+    "SS naming and MCP read-only entry; reference content preserved"
+  ],
+  "source_files": {
+    "SKILL.md": "9d2f123eb78b523d12c196caaf709e3baf37d0d2299e285c283b86ff398e2e1f",
+    "agents/openai.yaml": "a2d86325e91ab1e398f5b971b55e55cf337d5fa775a91305088595b338c791b9",
+    "references/delivery-checks.md": "2ef1c9eac3d3a5da6f269abd89d775eb5d2581fbc826eeb3730822ec733c4a1b",
+    "references/isolated-react-motion-lab.md": "962ed99e4b6bbc3c065b70e36dd907e6f9a131332f813bf6961aba771c9e6f0d",
+    "references/learning-loop.md": "ff44fec53325a0b58df06cdf99c2c208b8de352e39958c6e86ff832b10a0b1e9",
+    "references/lightweight-frontend.md": "c9fad68b5045e2c503042fab636174ffbdcb235e4db86f5820341ec378bb659f",
+    "references/visual-motion-acceptance.md": "aa1d4deac4b727d15549217d779f5c8d76ef1f62732bb8d4fb62ba8a0404c358"
+  },
+  "as_reference": {
+    "commit": "2cc2a5a7d242b81b009e52edce520f9443158fd4",
+    "worktree": "clean at inspection",
+    "code_copied": false,
+    "license": "no root LICENSE found; publication/provenance review remains open"
+  },
+  "remote_publication": false
+}
